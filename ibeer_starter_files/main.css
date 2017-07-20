@@ -31,7 +31,10 @@ img{
 }
 .wrapper{
     width: 1000px;
-
+    display: flex;
+    flex-flow: column wrap;
+    height: 2500px;
+    align-self: flex-start;
     /*
         TODO:
         - Center up the page
@@ -73,6 +76,7 @@ img{
     color: white;
     bottom: 20px;
     text-shadow: 0 5px 8px rgba( 0, 0, 0, 0.3 );
+    font-family: "Dancing Script";
     /*
         TODO:
         - Use the script font: 'Dancing Script' fot this text
@@ -113,12 +117,11 @@ img{
 main{
     padding: 20px;
     background-color: #444;
-    box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
-    display: flex;
-    flex-flow: column wrap;
-
-    position: relative;
+    box-shadow: -10px 5px 8px rgba( 0, 0, 0, 0.3 );
     width: 60%;
+    position: relative;
+
+
 
     /*
         TODO:
@@ -130,9 +133,10 @@ aside{
     padding: 20px;
     background-color: #eee;
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
-    display: flex;
+    width: 20%;
     position: relative;
-    min-width: 200px;
+
+
     /*
         TODO:
         - Flexbox: Set the starting width of this element
@@ -174,6 +178,8 @@ article time{
 }
 article img{
   float: right;
+  max-width: 200px;
+  margin-left: 10px;
     /*
         TODO:
         - Float article images to the right
@@ -181,6 +187,9 @@ article img{
     */
 }
 article footer p{
+  border-top: 1px solid gray;
+  text-align: center;
+  color: gray;
     /*
         TODO:
         - Style the article footer
@@ -188,8 +197,9 @@ article footer p{
     */
 }
 #site-footer{
-
+color: #eeebda;
     background: #333;
+    text-align: center;
     /*
         TODO:
         - Style the site footer
