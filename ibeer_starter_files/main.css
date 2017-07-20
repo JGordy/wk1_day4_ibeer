@@ -16,7 +16,6 @@ body{
     line-height: 1.8;
     margin: 0;
     background-color: #eeebda;
-    width: 80%;
     margin: 0px auto 0px auto;
 }
 h1, h2, h3{
@@ -205,6 +204,8 @@ article footer p{
 color: #eeebda;
     background: #333;
     text-align: center;
+    width: 100%;
+    padding: 10px 0px;
     /*
         TODO:
         - Style the site footer
